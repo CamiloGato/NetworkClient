@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using NetworkClient.Rest.Client;
+using NetworkClient.Rest.Request;
 
 namespace NetworkClient.Rest
 {
     public static partial class RestClient
     {
         private static IRestClient _client;
-        private static IDictionary<string, string> _headers;
+        private static RequestHeaders _headers;
         
-        public static void Initialize(IRestClient client, IDictionary<string, string> headers)
+        public static void Initialize(IRestClient client, RequestHeaders headers)
         {
             _client = client;
             _headers = headers;

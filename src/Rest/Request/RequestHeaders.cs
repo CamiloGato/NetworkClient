@@ -1,7 +1,6 @@
-﻿namespace NetworkClient.Rest.Request
+﻿using System.Collections.Generic;
+
+namespace NetworkClient.Rest.Request
 {
-    public class RequestHeaders
-    {
-        
-    }
+    public class RequestHeaders : Dictionary<string, string> {}
 }
