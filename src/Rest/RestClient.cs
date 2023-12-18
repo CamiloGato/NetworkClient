@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using NetworkClient.Rest.Client;
+﻿using NetworkClient.Rest.Client;
 using NetworkClient.Rest.Request;
 
 namespace NetworkClient.Rest
